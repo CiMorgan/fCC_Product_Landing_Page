@@ -49,29 +49,53 @@ width: 60%;
 }
 #soil {
 display: flex;
-}
+flex-direction: column;
+content-align: center;
+text-align: center;
+margin-top: 40px;
+} 
 #price_details {
 display: flex;
 flex-direction: column;
 text-align: center;
+width: 60%;
 }
 #pricing {
 display: flex;
 flex-direction: row;
 justify-content: center;
 margin-top: 20px;
+width: 60%;
 }
 .product {
 display: flex;
 flex-direction: column;
+width: calc(100%/3);
 align-items: center;
-border: 1px solid blue;
-padding: 10px; 
+border: 2px solid blue;
 margin: 10px;
-border-radius: 10px;
+border-radius: 0px 0px 10px 10px;
+padding-bottom: 10px;
 }
-ul {
-list-style-type: none;
+.product p {
+margin-bottom: 4px;
+}
+.level {
+background-color: silver;
+text-align: center;
+width: 100%;
+text-transform: uppercase;
+font-weight: 700;
+font-size: x-large;
+padding: 15px 0;
+}
+.product .btn {
+margin-top: 20px;
+margin-bottom: 10px;
+width: 75px;
+height: 30px;
+background-color: yellow;
+font-weight: 700;
 }
 @media (max-width: 800px)
 #pricing {
